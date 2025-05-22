@@ -1,0 +1,58 @@
+.admin-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.orders-table thead {
+  background-color: #4f46e5;
+  color: white;
+}
+
+.orders-table th,
+.orders-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.orders-table tbody tr:hover {
+  background-color: #f3f4fd;
+}
+
+.status {
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  min-width: 80px;
+}
+
+.status.pending {
+  background-color: #f59e0b; /* amber */
+}
+
+.status.shipped {
+  background-color: #3b82f6; /* blue */
+}
+
+.status.delivered {
+  background-color: #10b981; /* green */
+}
